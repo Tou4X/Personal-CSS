@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #1f1b24;
+}
+
+.container{
+    color: #1F0067;
+}
+
+h1, h2, h3 ,h4{
+    color: #d2d8dc;
+}
+
+p {
+    color: #d2d8dc;
+}
+
+/* Justify Cotent */
+.justify-content-normal{
+    justify-content: normal;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-stretch{
+    justify-content: stretch;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+.justify-content-safe{
+    justify-content: safe center;
+}
+.justify-content-unsafe{
+    justify-content: unsafe center;
+}
+
+
+/* Flex */
+
+.d-flex{
+    flex:auto;
+    flex-direction: column;
+}
+.reverse-d-flex{
+    flex: auto;
+    flex-direction: column-reverse;
+}
+.h-flex{
+    flex:auto;
+    flex-direction: row;
+}
+.reverse-h-flex{
+    flex: auto;
+    flex-direction: column-reverse;
+}
+
+
+/* Standardizted Forms */
+.form-group{
+    color: #d2d8dc;
+    flex-flow: column wrap;
+}
+
